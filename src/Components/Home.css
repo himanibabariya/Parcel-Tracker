@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:0px 230px;
+    max-width: 80vw;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    
+}
+.home .left{
+    position: relative;
+}
+.home .left h1{
+    font-size: 35px;
+    font-weight: bold;
+    max-width: 32vw;
+
+}
+.home .left input{
+    margin-top: 30px;
+    padding: 20px 270px 20px 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+.home .left button{
+    background: #ffffff;
+    padding:20px 20px;
+    margin-left: 3px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.home .right img{
+    width:450px;
+}
+
+

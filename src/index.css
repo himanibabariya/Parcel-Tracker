@@ -6,11 +6,11 @@
 
 * {
   /* --primary-background-color: #05174e; */
-  --primary-background-color:#04113A;
+  --primary-background-color:#ffffff;
   --secondary-background--color: #10375F;
-  --primary-text-color: #ffffff;
+  --primary-text-color: #000000;
   --secondary-text-color: #e5e7eb;
-  --button-background-color: #C2410C;
+  --button-background-color: #4BA1A9;
 }
 
 body {

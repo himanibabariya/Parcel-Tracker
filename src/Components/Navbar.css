@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* max-width: 70vw; */
+    padding: 30px 70px;
+}
+nav .left logo{
+    height:70px;
+    width:70px;
+}
+nav .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+}
+nav .right ul{
+    display: flex;
+    align-items: center;
+    gap:23px;
+}
+nav .right ul li{
+    list-style: none;
+    color:gray;
+}
+nav .right button{
+    padding:10px 15px;
+    border-radius: 5px;
+    background-color: var(--button-background-color);
+    color:#ffffff;
+    border: none;
+}
