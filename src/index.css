@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  /* --primary-background-color: #05174e; */
+  --primary-background-color:#04113A;
+  --secondary-background--color: #10375F;
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #e5e7eb;
+  --button-background-color: #C2410C;
+}
+
+body {
+background-color: var(--primary-background-color);
+color: var(--primary-text-color);
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+font-family: sans-serif;
+} 
