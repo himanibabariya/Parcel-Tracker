@@ -1,0 +1,41 @@
+.home{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap:0px 250px;
+    max-width: 80vw;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    
+}
+
+.home .left h1{
+    font-size: 25px;
+    font-weight: bold;
+    max-width: 350px;
+    margin-top: 10px;
+}
+.home .left input{
+    margin-top: 20px;
+    padding: 20px 270px 20px 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+.home .left button{
+    background: #ffffff;
+    padding:20px 20px;
+    margin-left: 3px;
+    border-radius: 0px 5px 5px 0px;
+}
+.home .left .deliveryBoy{
+    width:300px;
+    margin: 0px auto;
+    margin-left: 100px
+}
+.home .right ul li{
+    list-style: none;
+    font-size: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    /* color:#8EC8CD; */
+    color:#AAD6DA;
+}
