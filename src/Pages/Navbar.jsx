@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react';
 import "../Style/Navbar.css";
-import { Link } from 'react-router-dom';
 import Logo from "../assets/logo.svg";
 
-const Navbar = () => {
+const Navbar = ({signUp}) => {
+ 
   return (
     <div>
       <nav>
@@ -14,11 +14,11 @@ const Navbar = () => {
 
         <div className="right">
           <ul>
-          <li>Home</li>
+            <li>Home</li>
             <li>Services</li>
             <li>Contact</li>
           </ul>
-          <button>Sign-in/up</button>
+          <button className='signup-btn' onClick={signUp} >Sign-in/up</button>
 
         </div>
       </nav>

@@ -1,12 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../Style/Home.css";
 import DeliveryBoy from "../assets/images/boy.png";
+import Navbar from "../Pages/Navbar";
 import Arrow from "../assets/icons/arrow.svg";
-import Box from "../assets/images/box.png";
+import Signup from './Signup';
 
 const Home = () => {
+  const [showSignUp, setSignUp] = useState(false);
+
+  const signUpForm = ()=>{
+    setSignUp(true);
+  }
+
   return (
     <div>
+      <Navbar signUp={signUpForm}/>
+      {showSignUp && <Signup />}
       <div className="home">
         <div className="left"> 
         <img src={DeliveryBoy} alt="" className='deliveryBoy'/>
@@ -26,6 +35,7 @@ const Home = () => {
             <li>Amazon</li>
             <li>Etsy</li>
             <li></li>
+            
           </ul>
         </div>
       </div>

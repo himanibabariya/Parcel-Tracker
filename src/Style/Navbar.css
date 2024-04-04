@@ -2,8 +2,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* max-width: 70vw; */
     padding: 30px 70px;
+    
 }
 nav .left logo{
     height:70px;
@@ -24,7 +24,7 @@ nav .right ul li{
     list-style: none;
     color:gray;
 }
-nav .right button{
+nav .right .signup-btn{
     padding:10px 15px;
     border-radius: 5px;
     background-color: var(--button-background-color);
