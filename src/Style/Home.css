@@ -10,14 +10,16 @@
 }
 
 .home .left h1{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
-    max-width: 350px;
-    margin-top: 10px;
+    max-width: 500px;
+    margin-top: 20px;
+
 }
 .home .left input{
-    margin-top: 20px;
-    padding: 20px 270px 20px 20px;
+    margin-top: 40px;
+    padding: 20px 300px 20px 20px;
+    /* width:200px; */
     border-radius: 5px 0px 0px 5px;
 }
 .home .left button{
@@ -28,7 +30,7 @@
 }
 .home .left .deliveryBoy{
     width:300px;
-    margin: 0px auto;
+    margin: 30px auto;
     margin-left: 100px
 }
 .home .right ul li{

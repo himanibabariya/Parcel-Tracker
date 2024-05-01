@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import "../Style/Navbar.css";
-import Logo from "../assets/logo.svg";
+import "./../../Style/Navbar.css";
+import Logo from "./../../assets/logo.svg";
 
 const Navbar = ({signUp}) => {
  
