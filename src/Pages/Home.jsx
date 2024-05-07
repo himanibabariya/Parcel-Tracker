@@ -14,9 +14,8 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar signUp={signUpForm}/>
       {showSignUp && <Signup />}
-      <div className="home">
+      <section id='home' className="home">
         <div className="left"> 
        
           <h1>From Dispatch to Doorstep: Monitor Your Shipments Every Step of the Way!</h1>
@@ -37,7 +36,15 @@ const Home = () => {
             <li></li>      
           </ul>
         </div>
-      </div>
+      </section>
+
+      <section id="services">
+        <h1>Tracking Services</h1>
+      </section>
+
+      <section id="contact">
+        contact
+      </section>
     </div>
   )
 }
